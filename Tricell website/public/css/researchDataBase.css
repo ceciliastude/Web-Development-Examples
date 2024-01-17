@@ -1,0 +1,36 @@
+textarea{
+ height: 250px;
+ width: 716px;
+ background-color: #dae3f3;
+ border-color: #336699;
+ font-size: small;
+}
+.researchSheet{
+  height: 250px;
+  width: 716px;
+  border: #000000 1px dashed;
+  font-size: small;
+}
+
+.btnedit{
+ width: 24px;
+ height: 24px;
+ /*background-image: url(edit.png);*/
+ background-color: green;
+ border-radius: 50%;
+
+}
+.btndelete{
+  width: 25px;
+  height: 25px;
+  /*background-image: url(delete.png);*/
+  background-color: green;
+  color: #000000;
+  text-align: center;
+  font-size: 10px;
+ }
+
+ .editcolumn{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+ }

@@ -1,0 +1,90 @@
+<!------------------------- Header start ------------------------------>
+<header>
+<div id="header-grid">
+	<!--Header-row1-start-->
+	<div class="sitemapbutton">
+			<button class="openmenubutton" onclick="openMenu()">=</button>  
+	</div>
+	<div class="headerlogo">
+		<a><img src="images/tricell_logo_hor.png" alt="Tricell Laboratories" border="0" /></a>
+	</div>
+	<div class="empty">
+			<!---Language settings start-->
+			<div class="dropdown">
+				<div class="headertext dropdown-toggle">
+					<a><img src="images/united-kingdom.png" alt="UK" border="0"/><h1>EN</h1></a>
+				</div>	
+				
+				<div class="dropdown-content">
+				  <a><img src="images/finland.png" alt="Finland" border="0">Suomi</a>
+				  <a><img src="images/sweden.png" alt="Sverige" border="0">Svenska</a>
+				  <a><img src="images/denmark.png" alt="Danmark" border="0">Dansk</a>
+				  <a><img src="images/norway.png" alt="Norge" border="0">Norsk</a>
+				  <a><img src="images/iceland.png" alt="Island" border="0">Islenskur</a>
+				  <a class="center-text">Beta</a>
+				</div>
+			</div>
+			<!---Language settings slut-->
+
+			<!---Log in start-->
+			<div class="dropdown">
+				<div class="headertext dropdown-toggle">
+					<a><h1>Log In</h1></a>
+				</div>
+				<div class="dropdown-content">
+					<button id="login-button"><a>Data Analyst</a></button>
+					<button><a>Shipper*</a></button>
+					<button><a>Resourcer*</a></button>
+					<a class="center-text">*Beta</a>
+				</div>
+			</div>
+			<!---Log in slut-->
+	</div>
+	<!--Header-row1-slut-->
+
+	<!--Header-row2-start-->
+		<div class="empty"></div>
+		<div class="header-menu">
+			<a href="http://localhost:3000/api/info/company_presentation">Company Presentation</a>
+			<a href="http://localhost:3000">Home</a>
+			<a href="http://localhost:3000/api/info/headquarters">Headquarters</a>
+		</div>
+		<div class="empty"></div>
+
+	</div>
+
+</div>
+	<!--Header-row2-slut-->
+</header>
+
+<script>
+	//Dropdown funktion
+	const dropdown = document.querySelector('.dropdown');
+	const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+	const dropdownContent = dropdown.querySelector('.dropdown-content');
+
+	dropdownToggle.addEventListener('click', function() {
+	dropdown.classList.toggle('active');
+	});
+
+	var loginDropdown = document.querySelector('.dropdown:last-of-type');
+	loginDropdown.querySelector('.dropdown-toggle').addEventListener('click', function() {
+	loginDropdown.classList.toggle('active');
+	});
+
+		//Loginlayer
+		let button = { login: false };
+		
+		document.getElementById("login-button").addEventListener("click", () => {
+			button.login = true;
+			document.getElementById("loginLayer").style.display = "block";
+		});
+		document.addEventListener("keydown", event => { 
+			if (event.key === "Escape") {
+				button.login = false;
+				document.getElementById("loginLayer").style.display = "none";
+			}
+		});
+
+  </script>
+<!------------------------- Header slut ------------------------------>

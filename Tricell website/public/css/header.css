@@ -1,0 +1,49 @@
+header
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Header_img_03.jpg);
+	background-size: cover;
+	height: 600px;
+}
+#header-grid
+{
+	display: grid;
+	grid-template-columns: 2fr 4fr 2fr;
+	grid-template-rows: repeat(2, 2fr);
+	grid-gap: 5px;
+	width: 100%;
+	margin: 0;
+
+}
+.sitemapbutton
+{
+	display: absolute;
+	align-items: left;
+}
+.headerlogo
+{
+	display: flex;
+	justify-content: center;
+}
+
+.headerlogo img {
+	max-width: 200px;
+	padding: 10px;
+}
+
+.header-menu
+{
+	position: relative;
+	text-align: center;
+}
+
+.header-menu a{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding: 1px;
+	margin-right: 35px;
+}
+
+.header-menu a:first-child {
+	font-size: 14px;
+  }

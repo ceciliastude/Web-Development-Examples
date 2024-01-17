@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personnelRegistry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<employee>
+		<employeeCode>IT22-00</employeeCode>
+		<name>Hulk</name>
+		<signatureDate>23-08-2022</signatureDate>
+		<dateOfBirth>18.12.1966</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>0-</bloodType>
+		<height>238cm</height>
+		<weight>380kg</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-01</employeeCode>
+		<name>Batman</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>17.04.1915</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>O</bloodType>
+		<height>1,88</height>
+		<weight>98</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+		<background>Batman is the superhero protector of Gotham City, a tortured, brooding vigilante dressed as a bat who fights against evil and strikes fear into the hearts of criminals everywhere. In his public identity, he is Bruce Wayne, a billionaire industrialist and notorious playboy. Although he has no superhuman abilities, he is one of the world's smartest men and greatest fighters. His physical prowess, technical ingenuity, and tactical thinking make him an incredibly dangerous opponent. He is also a founding member of the Justice League</background>
+		<strengths>Genius-level intellect Expert detective Master martial artist and hand-to-hand combatant Master tactician, strategist, and field commander Eidetic memory Utilizes high-tech equipment and weapons</strengths>
+		<weaknesses>Batman's no-kill rule is the foundation of his character, but has put him in great perils. Batman's greatest weaknesses such as his humanity, vulnerability, and moralities - while weakening him - are also his greatest strengths</weaknesses>
+	</employee>
+	<employee>
+		<employeeCode>IT22-02</employeeCode>
+		<name>Red Hood</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>16.08.1990</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>A+</bloodType>
+		<height>1.83</height>
+		<weight>102</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-03</employeeCode>
+		<name>Scarlet Witch</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>03.1964</dateOfBirth>
+		<sex>F</sex>
+		<bloodType>0-</bloodType>
+		<height>5,7" in</height>
+		<weight>132 lbs</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-04</employeeCode>
+		<name>The Punisher</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>01.02.1974</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>B</bloodType>
+		<height>1,85</height>
+		<weight>95</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-05</employeeCode>
+		<name>Deadpool</name>
+		<signatureDate>22-11-2022</signatureDate>
+		<dateOfBirth>22.11.1973</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>O negative</bloodType>
+		<height>1,88</height>
+		<weight>102</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-06</employeeCode>
+		<name>Blitzkrieger</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>09.03.1982</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>AB-</bloodType>
+		<height>175cm</height>
+		<weight>68kg</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-07</employeeCode>
+		<name>Asterix</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>85 BC</dateOfBirth>
+		<sex>Male</sex>
+		<bloodType>B-</bloodType>
+		<height>1,45</height>
+		<weight>45</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-08</employeeCode>
+		<name>Valkyrie</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>03.10.3000 B.C</dateOfBirth>
+		<sex>F</sex>
+		<bloodType>AB</bloodType>
+		<height>190cm</height>
+		<weight>215kg</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-09</employeeCode>
+		<name>Stephen Strange</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>1930</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>B+</bloodType>
+		<height>01-08-2022</height>
+		<weight>81</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+		<background>Doctor Stephen Vincent Strange, M.D., Ph.D is a Master of the Mystic Arts. Originally being a brilliant but arrogant neurosurgeon, Strange got into a car accident which resulted with his hands becoming crippled. Once Western medicine failed him, Strange embarked on a journey to Kamar-Taj, where he was trained by the Ancient One in the ways of Magic and the Multiverse. Although he focused on healing his hands, Strange was drawn into a conflict with Kaecilius and the Zealots, who were working for Dormammu and had sought to merge Earth with the Dark Dimension to find an eternal life. Following the demise of the Ancient One and the defeat of Kaecilius, Strange then became the new protector for the Sanctum Sanctorum, seeking to defend the Earth from other inter-dimensional threats.</background>
+	</employee>
+	<employee>
+		<employeeCode>IT22-10</employeeCode>
+		<name>Vision</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>10.10.1968</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>V</bloodType>
+		<height>1.91</height>
+		<weight>136.08</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-11</employeeCode>
+		<name>Loki</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>13.07.1021</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>B+</bloodType>
+		<height>193cm</height>
+		<weight>238kg</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-12</employeeCode>
+		<name>Spawn</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>16.03.1961</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>0-</bloodType>
+		<height>187</height>
+		<weight>181</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-13</employeeCode>
+		<name>Joker</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>28.02.1940</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>AB</bloodType>
+		<height>195</height>
+		<weight>90</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-14</employeeCode>
+		<name>Domino</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>02.02.1991</dateOfBirth>
+		<sex>F</sex>
+		<bloodType>-0</bloodType>
+		<height>173</height>
+		<weight>54,4</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22 -15</employeeCode>
+		<name>Ant-Man</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>16.9.1962</dateOfBirth>
+		<sex>Male</sex>
+		<bloodType>A+</bloodType>
+		<height>1.83</height>
+		<weight>62</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-16</employeeCode>
+		<name>Star Lord</name>
+		<signatureDate>24-08-2022</signatureDate>
+		<dateOfBirth>04.02.1962</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>O-</bloodType>
+		<height>188</height>
+		<weight>79</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-17</employeeCode>
+		<name>Daredevil</name>
+		<signatureDate>25-08-2022</signatureDate>
+		<dateOfBirth>01.04.1964</dateOfBirth>
+		<sex>M</sex>
+		<bloodType>B-</bloodType>
+		<height>1,83</height>
+		<weight>79</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+	<employee>
+		<employeeCode>IT22-19</employeeCode>
+		<name>Kid Quick</name>
+		<signatureDate>13-09-2022</signatureDate>
+		<dateOfBirth>18.05.1996</dateOfBirth>
+		<sex>non-binary</sex>
+		<bloodType>AB</bloodType>
+		<height>1,75</height>
+		<weight>61</weight>
+		<rank>Junior Data Analyst</rank>
+		<securityAccessLevel>C</securityAccessLevel>
+		<department>Medical Data Department</department>
+	</employee>
+</personnelRegistry>

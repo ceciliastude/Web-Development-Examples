@@ -1,0 +1,79 @@
+footer {
+	background-color: rgb(12, 12, 12);
+	position: flex;
+	width: 100%;
+  }
+  
+  .footer-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); 
+	grid-gap: 5px;
+  }
+  
+  .empty {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .footerleft, .footerleft2 {
+	color: #ffffff;
+	font-size: 14px;
+	text-align: left;
+	padding: 20px;
+  }
+  
+  .footerright2, .footerright {
+	color: #fca83c;
+	font-size: 14px;
+	font-style: Arial;
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .footerright {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .footerphonelogo {
+	width: 60px;
+	height: auto;
+	margin-top: 7px;
+  }
+  
+  .footerimg {
+	width: 170px;
+	height: auto;
+  }
+  
+  .footer-grid2 {
+	display: grid;
+	grid-template-columns: 2fr 4fr 2fr;
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 5px;
+  }
+  
+  .socialicons {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .socialicons a {
+	margin-right: 10px;
+  }
+  
+  .socialicons img {
+	max-width: 50px;
+	margin-right: 5px;
+  }
+  
+  .bwlogo {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .bwlogo img {
+	max-width: 100px;
+	padding: 10px;
+  }
+  
