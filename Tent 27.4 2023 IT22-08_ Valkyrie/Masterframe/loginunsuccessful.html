@@ -1,0 +1,48 @@
+<html>
+
+<script language="JavaScript" type="text/javascript">
+    function tryagain() 
+    {
+        window.location.href = "/logout";
+    }
+    </script>
+
+<link rel="stylesheet" type="text/css" href="/public/css/loginmenu.css"> 
+<style type="text/css">
+
+h2
+{
+    font-size: 20px;
+    font-weight: bold;
+    right: 675px;
+    bottom: 650px;
+}
+input[type="submit"]
+	{
+	background-color: #84c096;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 10px;
+    margin: 40px auto;
+    padding: 20px;
+    font: Arial;
+    font-size: 15px;
+    line-height: 1px;
+  }
+
+  input[type="submit"]:hover {
+  color: white;
+}
+</style>
+
+    <body>
+        <div class="body"></div>
+        <div class="loginbox">
+        <h1>Welcome to Tricell Off-Grid</h1>
+        <h2>Incorrect credentials!</h2>
+            <input type="submit" value="Try Again" onClick="tryagain()">
+        </div>
+    </body>
+
+</html>

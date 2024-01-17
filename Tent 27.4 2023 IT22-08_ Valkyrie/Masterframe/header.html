@@ -1,0 +1,74 @@
+<script language="JavaScript" type="text/javascript" src="/public/scripts/MD5.js"></script>
+<script language="JavaScript" type="text/javascript">
+
+    function hashing() {
+        document.form.fpassword.value = hex_md5(document.form.fpassword.value);
+    }
+    function formCheck() {
+        if(document.form.femployeecode.value=="") {
+            alert("You must type in a username!");
+            return false;
+        }
+        if(document.form.fpassword.value=="") {
+            alert("You must give a password!");
+            return false;
+        }
+    }
+</script>
+<style type="text/css">
+
+    <!---Unik CSS-->
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label 
+{
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=password]
+	{
+        padding: 5px 5px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color: #d7ecff;
+        font-size: 16px;
+        margin-bottom: 30px;
+	}
+	input[type="submit"]
+	{
+	background-color: #84c096;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 10px;
+    margin: 40px auto;
+    padding: 20px;
+    font: Arial;
+    font-size: 15px;
+    line-height: 1px;
+  }
+
+  input[type="submit"]:hover {
+  color: white;
+}
+
+</style>
+
+<body>
+    <div class="body"></div>
+    <div class="loginbox">
+    <h1>Welcome to Tricell Off-Grid</h1>
+    <form name="form" action="/login" onSubmit="return formCheck()" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Login" onClick="hashing()">
+      </form>
+    </div>

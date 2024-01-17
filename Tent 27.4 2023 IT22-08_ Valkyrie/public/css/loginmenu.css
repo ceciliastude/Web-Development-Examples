@@ -1,0 +1,28 @@
+body
+{
+    background-image: url(/image/tablebg.gif);
+    background-size: cover;
+}
+
+.loginbox 
+{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    margin: 300px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+h1
+{
+    font-size: 45px;
+    font-weight: bold;
+    position: fixed;
+    right: 675px;
+    bottom: 650px;
+}
+
+
